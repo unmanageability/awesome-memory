@@ -62,8 +62,11 @@ changes often.
 | 204 | [Nemori](https://github.com/nemori-ai/nemori) | Memory layer | Episodic | MIT | OSS |
 | 68 | [MFS](https://github.com/zilliztech/mfs) (Zilliz) | Context harness | Vector (local, file-like) | Apache-2.0 | OSS |
 | 11 | [membase](https://github.com/unibaseio/membase) (Unibase) | Memory SDK | Decentralized | OSS¹ | OSS (early) |
+| 2² | [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | Knowledge store (developer alpha) | Append-only records / lexical retrieval | MIT | OSS, local |
 
 ¹ GitHub did not return a standard SPDX license id — verify the license in the repo before use.
+
+² Hyperconsciousness star count checked 2026-09-29; other counts retain the 2026-06-30 snapshot.
 
 > **Curated lists** (not in the table): [IAAR-Shanghai/Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory)
 > (1,032★) and [topoteretes/awesome-ai-memory](https://github.com/topoteretes/awesome-ai-memory) (803★).
@@ -168,6 +171,14 @@ key, no GPU); optional Milvus/Zilliz Cloud + Postgres backends. New and fast-mov
 
 ### [membase](https://github.com/unibaseio/membase) · 11★ · Python
 Early SDK for **decentralized** agent memory on the Unibase data-availability layer. Very early-stage.
+
+### [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) · 2★² · MIT · Rust
+Developer-alpha knowledge store for humans and agents, with encrypted, append-only records,
+device sync, and CLI, MCP and HTTP interfaces. Retrieval is lexical; agents access selected
+records through scoped, expiring grants. [Build from source](https://github.com/louis030195/hyperconsciousness#install-from-source)
+and use the documented read-only MCP grant example. Grants constrain server responses, not
+processes with owner-level OS access; hosted model providers can see returned plaintext.
+No independent security audit is claimed.
 
 ---
 
