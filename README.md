@@ -212,6 +212,14 @@ when the "memory" is a knowledge base rather than evolving user/agent state.
 Train a personal AI "self" that learns your identity and context locally — personal memory framed as
 a digital extension of you, rather than infrastructure for third-party agents.
 
+### [Screenpipe](https://github.com/screenpipe/screenpipe) · Screenpipe Commercial License · Rust/TypeScript
+Searchable **screen text and audio history** captured locally for cross-app recall, meeting notes,
+and work summaries. Its [MCP server](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)
+and local API let assistants retrieve that history as context. Source-available under the
+[Screenpipe Commercial License](https://github.com/screenpipe/screenpipe/blob/main/LICENSE.md).
+Configured cloud AI, transcription, sync, and integrations can transmit context off-device.
+See [current plans](https://screenpipe.com/pricing) for pricing and limits.
+
 ---
 
 ## Commercial & managed platforms
